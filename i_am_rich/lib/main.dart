@@ -11,6 +11,9 @@ void main() {
           centerTitle: true,
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Center(
+          child: Image.asset('images/diamond.png'),
+        ),
       ),
     ),
   );
